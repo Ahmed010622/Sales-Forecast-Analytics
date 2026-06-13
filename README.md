@@ -11,12 +11,14 @@ A Power BI analytics project: cleans raw Sales & Forecast JSON exports, builds a
 
 ## Project Structure
 
-```
 orion-sales-analytics/
 ├── src/
 │   └── etl_orion.py              # ETL script (run this)
-├── notebooks/
-│   └── Orion_ETL_Notebook.ipynb  # Same pipeline, step-by-step in Jupyter
+├   └──  notebooks/
+│        └── ETL.ipynb
+         └── data/ 
+              ├── raw/                       # Input: Sales.json, forecast.json
+│             └── processed/  # Same pipeline, step-by-step in Jupyter
 ├── data/
 │   ├── raw/                       # Input: Sales.json, forecast.json
 │   └── processed/                 # Output: 7 CSV tables (created by ETL)
