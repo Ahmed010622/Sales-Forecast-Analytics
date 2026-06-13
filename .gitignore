@@ -22,6 +22,10 @@ ENV/
 # Logs
 *.log
 
+# Large raw data files
+Data/Raw/
+src/Notebook/data/Raw/
+
 # Data files
 *.sqlite3
 *.db
